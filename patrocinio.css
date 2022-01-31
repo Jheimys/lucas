@@ -1,0 +1,30 @@
+/*
+
+Aula para colocar as figuras e texto lsdo a lado:
+https://www.youtube.com/watch?v=Aqx3NYPzUaM
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.banco {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banco li {
+  margin: 75px;
+}
+
+.picpay {
+  width: 100px;
+}
+
+.pix {
+  width: 150px;
+}
